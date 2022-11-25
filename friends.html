@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome Page</title>
+    <title>Friends</title>
     <link rel="stylesheet" href="/css/style.css" />
     <!-- RESET CSS CDN -->
     <link
@@ -29,22 +29,32 @@
       </div>
     </div>
 
-    <!-- HEADER - WELCOME -->
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to HTML and CSS study</h1>
-      <p class="welcome-header__text">
-        If you want to be a developer, you have to study hard.
-      </p>
-    </header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="far far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fas fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fas fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
 
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log IN" />
-      <a href="#">Find ID or Password</a>
-    </form>
-
-    <!-- fontawesome kit -->
+    <!-- FONTAWESOME SCRIPT -->
     <script
       src="https://kit.fontawesome.com/26d23206fd.js"
       crossorigin="anonymous"
