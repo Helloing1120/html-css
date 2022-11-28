@@ -5,11 +5,15 @@
 
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* SCREEN */
 
 @import "screen/login.css";
 
+* {
+  font-family: "Open Sans", sans-serif;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -17,8 +21,4 @@ a {
 
 input:focus {
   outline: none;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
 }
