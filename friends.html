@@ -9,6 +9,7 @@
   </head>
   <body>
     <!-- STATUS BAR -->
+
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -25,6 +26,7 @@
     </div>
 
     <!-- HEADER -->
+
     <header class="screen-header">
       <h1 class="screen-header__title">Friends</h1>
       <div class="screen-header__icons">
@@ -35,6 +37,7 @@
     </header>
 
     <!--FRIEND'S NAMES DISPLAY SCREEN-->
+
     <a id="friends-display-link" href="#">
       <i class="fas fa-info-circle"></i>
       Friend's Names Display
@@ -42,22 +45,50 @@
     </a>
 
     <!--USER-COMPONENT SCREEN-->
-    <div class="user-component">
-      <div class="user-component__column">
-        <img
-          class="user-component__avatar"
-          src="/screenshots/ianDev.png"
-          alt=""
-        />
-        <div class="user-component__text">
-          <h4 class="user-component__name">IanDev</h4>
-          <h6 class="user-component__subtitle">I'm studying HTML/CSS</h6>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="/screenshots/ianDev.png"
+            alt=""
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__name">IanDev</h4>
+            <h6 class="user-component__subtitle">I'm studying HTML/CSS</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="/screenshots/ianDev.png"
+              alt=""
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__name user-component__name-not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
         </div>
       </div>
-      <div class="user-component__column"></div>
-    </div>
+    </main>
 
     <!-- NAVIGATION BAR -->
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -86,6 +117,7 @@
     </nav>
 
     <!-- FONTAWESOME SCRIPT -->
+
     <script
       src="https://kit.fontawesome.com/26d23206fd.js"
       crossorigin="anonymous"
